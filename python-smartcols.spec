@@ -7,7 +7,8 @@ License:	GPLv2+
 Url:		https://github.com/ignatenkobrain/python-smartcols
 Source0:	https://github.com/ignatenkobrain/python-smartcols/archive/v%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	python3egg(setuptools)
+BuildRequires:	python3dist(setuptools)
+BuildRequires:	python3dist(cython)
 
 %description
 Python bindings for the util-linux libsmartcols library
