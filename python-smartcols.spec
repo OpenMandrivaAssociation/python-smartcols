@@ -9,6 +9,7 @@ Source0:	https://github.com/ignatenkobrain/python-smartcols/archive/v%{version}.
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(smartcols)
 BuildRequires:	python3dist(setuptools)
+BuildRequires:	python3dist(pytest-runner)
 BuildRequires:	python3dist(cython)
 
 %description
