@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Summary:	Python bindings for the util-linux libsmartcols library
 Name:		python-smartcols
 Version:	0.3.0
@@ -13,7 +15,7 @@ BuildRequires:	python3dist(pytest-runner)
 BuildRequires:	python3dist(cython)
 
 %description
-Python bindings for the util-linux libsmartcols library
+Python bindings for the util-linux libsmartcols library.
 
 %files
 %{py_platsitedir}/smartcols*
