@@ -3,7 +3,7 @@
 Summary:	Python bindings for the util-linux libsmartcols library
 Name:		python-smartcols
 Version:	0.3.0
-Release:	3
+Release:	4
 Group:		Development/Python
 License:	GPLv2+
 Url:		https://github.com/ignatenkobrain/python-smartcols
